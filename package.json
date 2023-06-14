@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "sass": "^1.63.4"
+  },
+  "name": "portfolio",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+      "sass:watch": "sass --watch ./styles/styles.scss ./styles/styles.css",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliBenhenia/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliBenhenia/Portfolio/issues"
+  },
+  "homepage": "https://github.com/aliBenhenia/Portfolio#readme"
+}
