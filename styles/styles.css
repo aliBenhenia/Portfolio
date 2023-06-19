@@ -204,7 +204,7 @@ section {
 .header-content .right-header .name {
   font-size: 3rem;
 }
-.header-content .right-header .name span {
+.header-content .right-header .name #typing {
   color: var(--color-secondary);
   font-family: "Dancing Script", cursive;
 }

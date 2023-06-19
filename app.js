@@ -13,4 +13,5 @@
     document.getElementById("send_mail").addEventListener('click', (event)=>{
        document.getElementById("my_form").submit()
     })
+    
 })();

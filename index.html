@@ -28,8 +28,10 @@
             </div>
             <div class="right-header">
                 <h1 class="name">
-                    Hi, I'm <span>Ali benhenia.</span>
-                     Web Developer.
+                    Hi, I'm <span id="typing">Ali benhenia.</span>
+                   <span id="typo">
+                   
+                   </span> 
                 </h1>
                 <p>
                    i am a React JS developer with expertise in JavaScript, HTML, and CSS. I specialize in creating dynamic and interactive user interfaces that enhance the user experience. I have experience in developing single-page applications (SPAs) and have worked with popular UI libraries such as Ant Design and Bootstrap. I am comfortable working with RESTful APIs and integrating them into applications. I am a collaborative team player who is passionate about writing clean, maintainable code.
@@ -117,7 +119,7 @@
                     </div>
                     <p class="tl-duration">2022 - present</p>
                     <h5>
-                        Software Engineer<span> - 42 training</span></h5>
+                        Software Engineer<span> | 42 training</span></h5>
                     <p>       
                         As a programmer in a rigorous program, I thrive on excellence, peer learning, creativity, and collaborative problem-solving. My focus is on delivering high-quality code, constantly learning from my peers, exploring innovative solutions, and working effectively in teams to overcome challenges.
                     </p>
@@ -396,6 +398,29 @@
     <div class="theme-btn">
         <i class="fas fa-adjust"></i>
     </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#typo', {
+        strings: ['developer', 'programmer'],
+        typeSpeed: 111,
+        loop: true,
+        loopCount: Infinity,
+        smartBackspace: true,
+        backDelay: 700,
+        shuffle: false,
+        fadeOut: false,
+        fadeOutClass: 'typed-fade-out',
+        fadeOutDelay: 500,
+        howCursor: true,
+        cursorChar: '|',
+        autoInsertCss: true,
+        startDelay:10,
+    });
+  </script>
     <script src="app.js"></script>
 </body>
 </html>
